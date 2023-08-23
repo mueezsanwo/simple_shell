@@ -1,0 +1,44 @@
+shell(1) - manual page
+
+NAME
+
+	hsh — shell, the standard command language interpreter
+
+SYNOPSIS
+
+	./hsh
+	[\| options \|]
+
+DESCRIPTION
+
+	Hsh utility is a command language interpreter that shall
+	execute commands read from a command line string, the
+	program wait the command and conect this with the executable
+	file.
+
+ENVIRONMENT VARIABLES
+
+	The following envronment variables shall affect the execution of
+	hsh:
+
+	ENV	This variable is invoked to start program, and are renvoked
+		if you type a next line of arguments
+
+EXIT STATUS
+
+	The following exit values shall be returned:
+
+	0   	The script to be executed correctly and the output its the
+		expected.
+
+	EOF	If something procces dont create some procces necesary.
+
+	Ctrl D	Forced exit status EOF.
+ AUTHORS
+
+	Sanwo Mueez
+	Sanwo Qudus
+
+DATE CREATION
+
+     23/08/2023
