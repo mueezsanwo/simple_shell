@@ -15,25 +15,6 @@ DESCRIPTION
 	execute commands read from a command line string, the
 	program wait the command and conect this with the executable
 	file.
-
-ENVIRONMENT VARIABLES
-
-	The following envronment variables shall affect the execution of
-	hsh:
-
-	ENV	This variable is invoked to start program, and are renvoked
-		if you type a next line of arguments
-
-EXIT STATUS
-
-	The following exit values shall be returned:
-
-	0   	The script to be executed correctly and the output its the
-		expected.
-
-	EOF	If something procces dont create some procces necesary.
-
-	Ctrl D	Forced exit status EOF.
  AUTHORS
 
 	Sanwo Mueez
