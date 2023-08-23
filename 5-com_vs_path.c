@@ -34,4 +34,4 @@ char *com_vs_path(char *buffer_folder, char *command_buffer)
 		buffer_complete_path[i] = command_buffer[j];
 	}
 	return (buffer_complete_path);
-
+}
